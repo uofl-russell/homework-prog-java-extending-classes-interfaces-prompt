@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Verify MegaCorp Directory Exists",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify NonOfficer & Officer are subdirectories of MegaCorp",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer; ls HumanResources/src/MegaCorp/Officer;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+    {
+      "name": "Verify Engineering and Research are subdirectories of NonOfficer",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research; ls HumanResources/src/MegaCorp/NonOfficer/Engineering;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }    
+  ]
+}   
