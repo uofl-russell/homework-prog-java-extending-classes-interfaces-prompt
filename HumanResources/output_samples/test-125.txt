@@ -1,0 +1,256 @@
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall38 Smith32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Senior Lead For Project #319
+	Employment Status : RETIRED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		FRONTEND => Alanis Front
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Software Cert #459
+			Software Cert #343
+			Software Cert #480
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #685
+			MySQL
+			Web Cert #462
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web FE Certifications : 
+			React
+			Angular
+			FE Cert #271
+	Job Description Given Below : 
+		Leads a team of 39 that develop Web Applications for section 34965
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall38 Smith32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Senior Lead For Project #319
+	Employment Status : RETIRED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		BACKEND => Alan Back
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Software Cert #459
+			Software Cert #343
+			Software Cert #480
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #685
+			LAMP
+			Web Cert #462
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web BE Certifications : 
+			NGINX
+			APACHE
+			LINUX
+			BE Cert #271
+	Job Description Given Below : 
+		Leads a team of 39 that develop Web Applications for section 34965
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall38 Smith32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Senior Lead For Project #393
+	Employment Status : TERMINATED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AWS => Jeff Bezos
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #459
+			Engineer Cert #343
+			Engineer Cert #480
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #685
+			BigCloud One
+			Cloud Cert #462
+			Cisco
+			Google Cloud
+			Cloud Plus
+		AWS Certifications : 
+			Lambda
+			DynamoDB
+			Aurora
+			S3
+			EC2
+			Gateway
+			AWS Cert #271
+	Job Description Given Below : 
+		Leads a team of 22 that develop Web Applications for section 45629
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall38 Smith32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Senior Lead For Project #393
+	Employment Status : TERMINATED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AZURE => Bill Gates
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #459
+			Engineer Cert #343
+			Engineer Cert #480
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #685
+			BigCloud One
+			Cloud Cert #462
+			Cisco
+			Google Cloud
+			Cloud Plus
+		Azure Certifications : 
+			AZDevOps
+			ASA
+			MSSQL
+			Azure Cert #271
+	Job Description Given Below : 
+		Leads a team of 22 that develop Web Applications for section 45629
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall38 Smith32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Senior Lead For Project #59
+	Employment Status : INTERN
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		RESEARCH => Madison Resear
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+		Research Certifications : 
+			Research Cert #685
+			Nobel Prize
+			Smart 100
+			Top 50
+			IEEE Fellow
+			Research Cert #462
+	Job Description Given Below : 
+		General supervisor for a team of 81 that design projects for section 16911
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Elon38 Zuckerberg32
+	Birth Date : 2/12/1954
+	Employee ID : 9792
+	Hire Date : 8/13/2005
+	Job Title : Chief Executive Officer
+	Employment Status : FULLTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		CSUITE => Unreachable Jim
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #573
+			MS-Excel
+			MS-PowerPoint
+		CSUITE Certifications : 
+			Big Time Corp Cert #685
+			GAP Accounting
+			Avoiding Crooked
+			Swim In Money
+	Job Description Given Below : 
+		Do everything possible to rule the world!
+
+---------End Employee Record------------
+

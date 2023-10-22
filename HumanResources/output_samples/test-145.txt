@@ -1,0 +1,304 @@
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall208 Smith93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Admin Assistant For Project #8
+	Employment Status : FULLTIME
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		FRONTEND => Alanis Front
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #150
+			Engineer Cert #79
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Software Cert #618
+			Software Cert #282
+			Software Cert #158
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #133
+			Web Cert #651
+			MySQL
+			Web Cert #447
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web FE Certifications : 
+			React
+			Angular
+			FE Cert #342
+			FE Cert #438
+			FE Cert #7
+	Job Description Given Below : 
+		Leads a team of 38 that develop Web Applications for section 14477
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall208 Smith93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Admin Assistant For Project #8
+	Employment Status : FULLTIME
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		BACKEND => Alan Back
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #150
+			Engineer Cert #79
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Software Cert #618
+			Software Cert #282
+			Software Cert #158
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #133
+			Web Cert #651
+			LAMP
+			Web Cert #447
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web BE Certifications : 
+			NGINX
+			APACHE
+			LINUX
+			BE Cert #342
+			BE Cert #438
+			BE Cert #7
+	Job Description Given Below : 
+		Leads a team of 38 that develop Web Applications for section 14477
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall208 Smith93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Admin Assistant For Project #457
+	Employment Status : PARTTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AWS => Jeff Bezos
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #618
+			Engineer Cert #282
+			Engineer Cert #158
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #133
+			Cloud Cert #651
+			BigCloud One
+			Cloud Cert #447
+			Cisco
+			Google Cloud
+			Cloud Plus
+		AWS Certifications : 
+			Lambda
+			DynamoDB
+			Aurora
+			S3
+			EC2
+			Gateway
+			AWS Cert #342
+			AWS Cert #438
+			AWS Cert #7
+	Job Description Given Below : 
+		Leads a team of 60 that develop Web Applications for section 35799
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall208 Smith93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Admin Assistant For Project #457
+	Employment Status : PARTTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AZURE => Bill Gates
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #618
+			Engineer Cert #282
+			Engineer Cert #158
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #133
+			Cloud Cert #651
+			BigCloud One
+			Cloud Cert #447
+			Cisco
+			Google Cloud
+			Cloud Plus
+		Azure Certifications : 
+			AZDevOps
+			ASA
+			MSSQL
+			Azure Cert #342
+			Azure Cert #438
+			Azure Cert #7
+	Job Description Given Below : 
+		Leads a team of 60 that develop Web Applications for section 35799
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall208 Smith93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Scrum Master For Project #143
+	Employment Status : INTERN
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		RESEARCH => Madison Resear
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+		Research Certifications : 
+			Research Cert #133
+			Research Cert #651
+			Nobel Prize
+			Smart 100
+			Top 50
+			IEEE Fellow
+			Research Cert #447
+	Job Description Given Below : 
+		Leads a team of 52 that develop Web Applications for section 18462
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Elon208 Zuckerberg93
+	Birth Date : 6/8/1965
+	Employee ID : 8167
+	Hire Date : 8/16/2009
+	Job Title : Chief Executive Officer
+	Employment Status : FULLTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		CSUITE => Unreachable Jim
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			General Cert #444
+			General Cert #371
+			General Cert #711
+			General Cert #720
+			MS-Excel
+			MS-PowerPoint
+			General Cert #493
+			General Cert #498
+		CSUITE Certifications : 
+			Big Time Corp Cert #133
+			Big Time Corp Cert #651
+			GAP Accounting
+			Avoiding Crooked
+			Swim In Money
+	Job Description Given Below : 
+		Do everything possible to rule the world!
+
+---------End Employee Record------------
+

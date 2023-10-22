@@ -1,0 +1,256 @@
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall177 Smith263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Senior Lead For Project #74
+	Employment Status : RETIRED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		FRONTEND => Alanis Front
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #378
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #19
+			Web Cert #760
+			MySQL
+			Web Cert #11
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web FE Certifications : 
+			React
+			Angular
+			FE Cert #434
+			FE Cert #128
+	Job Description Given Below : 
+		General supervisor for a team of 16 that design projects for section 30400
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall177 Smith263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Senior Lead For Project #74
+	Employment Status : RETIRED
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		BACKEND => Alan Back
+		WEBDEVELOPMENT => Chelsay Web
+		SOFTWARE => Larry Soft
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Engineer Cert #378
+			Manufacturing Safety
+			OHSHA
+		Software Certifications : 
+			Clingo
+			Python
+			C++
+			C
+			Haskell
+			Java
+		Web Development Certifications : 
+			Web Cert #19
+			Web Cert #760
+			LAMP
+			Web Cert #11
+			ServiceWorkers
+			WebSockets
+			HTTPS
+		Web BE Certifications : 
+			NGINX
+			APACHE
+			LINUX
+			BE Cert #434
+			BE Cert #128
+	Job Description Given Below : 
+		General supervisor for a team of 16 that design projects for section 30400
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall177 Smith263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Scrum Master For Project #106
+	Employment Status : FULLTIME
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AWS => Jeff Bezos
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #19
+			Cloud Cert #760
+			BigCloud One
+			Cloud Cert #11
+			Cisco
+			Google Cloud
+			Cloud Plus
+		AWS Certifications : 
+			Lambda
+			DynamoDB
+			Aurora
+			S3
+			EC2
+			Gateway
+			AWS Cert #434
+			AWS Cert #128
+	Job Description Given Below : 
+		Leads a team of 88 that develop Web Applications for section 23741
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall177 Smith263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Scrum Master For Project #106
+	Employment Status : FULLTIME
+	Rehire Eligibility : NOTELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		AZURE => Bill Gates
+		CLOUD => Samantha Cloud
+		ENGINEERING => Mahsa Bigengine
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+			Caregiving
+		Engineering Certifications : 
+			Chemical Safety
+			Manufacturing Safety
+			OHSHA
+		Cloud Certifications : 
+			Cloud Cert #19
+			Cloud Cert #760
+			BigCloud One
+			Cloud Cert #11
+			Cisco
+			Google Cloud
+			Cloud Plus
+		Azure Certifications : 
+			AZDevOps
+			ASA
+			MSSQL
+			Azure Cert #434
+			Azure Cert #128
+	Job Description Given Below : 
+		Leads a team of 88 that develop Web Applications for section 23741
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Kendall177 Smith263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Admin Assistant For Project #322
+	Employment Status : FULLTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		RESEARCH => Madison Resear
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+		Research Certifications : 
+			Research Cert #19
+			Research Cert #760
+			Nobel Prize
+			Smart 100
+			Top 50
+			IEEE Fellow
+			Research Cert #11
+	Job Description Given Below : 
+		General supervisor for a team of 44 that design projects for section 41088
+
+---------End Employee Record------------
+
+
+---------Begin Employee Record------------
+
+	Employee Name : Elon177 Zuckerberg263
+	Birth Date : 6/14/1981
+	Employee ID : 6403
+	Hire Date : 8/4/2007
+	Job Title : Chief Executive Officer
+	Employment Status : FULLTIME
+	Rehire Eligibility : ELIGIBLE
+	Employee HR Chain Of Command Listed Below (Division => Contact) : 
+		CSUITE => Unreachable Jim
+		MegaCorp => Melinda Bigmoney
+	All Certifications Listed Below : 
+		General Certifications : 
+			MS-Excel
+			MS-PowerPoint
+			General Cert #264
+		CSUITE Certifications : 
+			Big Time Corp Cert #19
+			Big Time Corp Cert #760
+			GAP Accounting
+			Avoiding Crooked
+			Swim In Money
+	Job Description Given Below : 
+		Do everything possible to rule the world!
+
+---------End Employee Record------------
+
