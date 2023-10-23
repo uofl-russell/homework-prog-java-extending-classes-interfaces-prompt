@@ -11,125 +11,375 @@
       "points": null
     },
     {
-      "name": "Verify NonOfficer is a subdirectory of MegaCorp directory",
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/IEmployee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/IEmployee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify Officer is a subdirectory of MegaCorp directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Officer/Employee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/Officer > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/Officer/Employee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify CSuite is a subdirectory of Officer directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Officer/CSuite/IEmployee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/Officer/CSuite;",
+      "run": "ls HumanResources/src/MegaCorp/Officer/CSuite/IEmployee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify Engineering is a subdirectory of NonOfficer directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Officer/CSuite/Employee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/Officer/CSuite/Employee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify Research is a subdirectory of NonOfficer directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Officer/CSuite/Categories.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/Officer/CSuite/Categories.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify Cloud is a subdirectory of Engineering directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Officer/Categories.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/Officer/Categories.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },
-    {
-      "name": "Verify Software is a subdirectory of Engineering directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Research/IEmployee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research/IEmployee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },    
-    {
-      "name": "Verify AWS is a subdirectory of Cloud directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Research/Employee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research/Employee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },     
-    {
-      "name": "Verify Azure is a subdirectory of Cloud directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Research/Categories.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research/Categories.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },         
-    {
-      "name": "Verify WebDevelopment is a subdirectory of Software directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/IEmployee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/IEmployee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },        
-    {
-      "name": "Verify BackEnd is a subdirectory of WebDevelopment directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    },      
-    {
-      "name": "Verify FrontEnd is a subdirectory of WebDevelopment directory",
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd > /dev/null;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    }                
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/IEmployee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/IEmployee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/NonOfficer/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Employee.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/Employee.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  },
+  {
+      "name": "Verify Existence Of File HumanResources/src/MegaCorp/Categories.java",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/Categories.java > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+  }
 
   ]
 }
