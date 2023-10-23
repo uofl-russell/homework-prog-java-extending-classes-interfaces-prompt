@@ -570,8 +570,27 @@
   "comparison": "exact",
   "timeout": 10,
   "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java printInfo method does not accept parameters",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
 }
-
 
   ]
 }
