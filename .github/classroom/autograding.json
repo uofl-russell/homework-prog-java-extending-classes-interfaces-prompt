@@ -732,9 +732,9 @@
   "points": 10
 },
 {
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Employee",
   "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Employee > /dev/null; echo $?",
   "input": "",
   "output": "0",
   "comparison": "exact",
