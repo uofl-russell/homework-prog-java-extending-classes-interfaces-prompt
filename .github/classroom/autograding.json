@@ -462,7 +462,7 @@
       "points": 10
   },
   {
-    "name": "Verify MegaCorp/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
+    "name": "Verify MegaCorp/NonOfficer/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
     "setup": "",
     "run": "cat HumanResources/src/MegaCorp/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
     "input": "",
@@ -470,7 +470,38 @@
     "comparison": "exact",
     "timeout": 10,
     "points": 10
-}
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Employee.java class is Public and extends Categories",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/Officer/Employee.java class is Public and extends Categories",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/Officer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+
 
   ]
 }
