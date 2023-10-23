@@ -5,12 +5,82 @@
       "setup": "",
       "run": "sha256sum HumanResources/src/Main.java",
       "input": "",
-      "output": "1275357ad73a1912fe2cc1bb7aa2ba4fec5334bee0dc9d9c8d3e74dad8a7dbbe2",
+      "output": "275357ad73a1912fe2cc1bb7aa2ba4fec5334bee0dc9d9c8d3e74dad8a7dbbe2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/AWSTest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/AWSTest.java",
+      "input": "",
+      "output": "a36cd94c0c56fa946f10a9e5948975d8062f34d91bbc2168c5fb4276e2c9a8c0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/AzureTest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/AzureTest.java",
+      "input": "",
+      "output": "f86f352be16f7d398b9fff32e257acf7e0c3d6c6d4a82e70a4ef2d0f7e570e78",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/BETest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/BETest.java",
+      "input": "",
+      "output": "18b07f428fec2fc6a20a96389ea5c7a9fb57bdee88787daa52a96d598aec0208",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/CSuiteTest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/CSuiteTest.java",
+      "input": "",
+      "output": "32b4df24990de3935e79736fbbec1b45c1419e40fef687f7b1feef6129db6147",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/FETest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/FETest.java",
+      "input": "",
+      "output": "a700bf6e08ec819467cbb83ad460542016f520c508f2fcf8045db26062d7e0c5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Verify TestPackage/RandomTests.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/RandomTests.java",
+      "input": "",
+      "output": "9a45e5966727b6fc6669fda83bcbf56387476659b1d7f195c04d2b520ffcf691",
       "comparison": "included",
       "timeout": 10,
       "points": null
     },
   
+    {
+      "name": "Verify TestPackage/ResearchTest.java has not been altered",
+      "setup": "",
+      "run": "sha256sum HumanResources/src/ResearchTest.java",
+      "input": "",
+      "output": "23ecb196123e3911c0641e50b7eea47d0fe59857bb3278b6152855ca2452066b",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
     {
       "name": "Verify MegaCorp Directory Exists",
       "setup": "",
