@@ -704,7 +704,7 @@
 {
   "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
   "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee; > /dev/null; echo $?",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
   "input": "",
   "output": "0",
   "comparison": "exact",
