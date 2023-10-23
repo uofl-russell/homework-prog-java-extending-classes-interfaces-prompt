@@ -670,7 +670,38 @@
   "comparison": "exact",
   "timeout": 10,
   "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/Officer/CSuite/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/Officer/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/Officer/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
 }
+
 
 
   ]
