@@ -610,7 +610,28 @@
   "comparison": "exact",
   "timeout": 10,
   "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java class is Public, Abstract, and extends Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
 }
+
 
   ]
 }
