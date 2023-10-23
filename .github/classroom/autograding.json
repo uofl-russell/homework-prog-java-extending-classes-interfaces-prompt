@@ -19,7 +19,7 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    }
+    },
     {
       "name": "Verify NonOfficer & Officer are subdirectories of MegaCorp",
       "setup": "",
