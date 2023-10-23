@@ -23,7 +23,7 @@
     {
       "name": "Verify TestPackage/AzureTest.java has not been altered",
       "setup": "",
-      "run": "sha256sum HumanResources/src/TestPackageAzureTest.java",
+      "run": "sha256sum HumanResources/src/TestPackage/AzureTest.java",
       "input": "",
       "output": "f86f352be16f7d398b9fff32e257acf7e0c3d6c6d4a82e70a4ef2d0f7e570e78",
       "comparison": "included",
