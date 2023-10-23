@@ -534,7 +534,7 @@
 {
   "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
   "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
   "input": "",
   "output": "0",
   "comparison": "exact",
@@ -544,7 +544,7 @@
 {
   "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
   "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
   "input": "",
   "output": "0",
   "comparison": "exact",
@@ -554,7 +554,7 @@
 {
   "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
   "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
   "input": "",
   "output": "0",
   "comparison": "exact",
