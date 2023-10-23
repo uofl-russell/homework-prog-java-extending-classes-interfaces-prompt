@@ -3,7 +3,7 @@
     {
       "name": "Verify MegaCorp Directory Exists",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp",
+      "run": "ls HumanResources/src/MegaCorp > /dev/null",
       "input": "",
       "output": "",
       "comparison": "exact",
