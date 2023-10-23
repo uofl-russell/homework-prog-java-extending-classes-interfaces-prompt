@@ -30,7 +30,7 @@ public abstract class RandomTests {
                             + rand.nextInt(50000);
             default:
                 return "Employee wanders aimlessly.  No idea how this happened.";
-        };
+        }
     }
 
     protected String randomJobTitle() {
@@ -44,7 +44,7 @@ public abstract class RandomTests {
                 return "Admin Assistant For Project #" + rand.nextInt(500);
             default:
                 return "Employee has not official title.  No  Idea how this happened";
-        };
+        }
     }
 
     protected Categories.EmploymentStatus randomEmploymentStatus() {
@@ -62,7 +62,7 @@ public abstract class RandomTests {
                 return Categories.EmploymentStatus.TERMINATED;
             default:
                 return Categories.EmploymentStatus.UNKNOWN;
-        };
+        }
     }
     protected Categories.Rehire randomRehireStatus() {
         int label = rand.nextInt(500)%2;
@@ -73,7 +73,7 @@ public abstract class RandomTests {
                 return Categories.Rehire.NOTELIGIBLE;
             default:
                 return Categories.Rehire.ELIGIBLE;
-        };
+        }
     }
 
     protected Calendar randomHireDate() {
