@@ -750,6 +750,16 @@
   "comparison": "exact",
   "timeout": 10,
   "points": 10
+},
+{
+  "name": "Verify MegaCorp/NonOfficer/Categories.java contains the correct import statement using MegaCorp.Employee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Employee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
 }
 
 
