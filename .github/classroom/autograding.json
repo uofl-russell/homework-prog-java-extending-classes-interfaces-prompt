@@ -11,9 +11,9 @@
       "points": null
     },
     {
-      "name": "Verify NonOfficer & Officer are subdirectories of MegaCorp",
+      "name": "Verify NonOfficer is a subdirectory of MegaCorp directory",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer; ls HumanResources/src/MegaCorp/Officer;",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -21,15 +21,115 @@
       "points": 10
     },
     {
-      "name": "Verify NonOfficer & Officer are subdirectories of MegaCorp",
+      "name": "Verify Officer is a subdirectory of MegaCorp directory",
       "setup": "",
-      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research;",
+      "run": "ls HumanResources/src/MegaCorp/Officer > /dev/null;",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
-    }
+    },
+    {
+      "name": "Verify CSuite is a subdirectory of Officer directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/Officer/CSuite;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify Engineering is a subdirectory of NonOfficer directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify Research is a subdirectory of NonOfficer directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify Cloud is a subdirectory of Engineering directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Verify Software is a subdirectory of Engineering directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },    
+    {
+      "name": "Verify AWS is a subdirectory of Cloud directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },     
+    {
+      "name": "Verify Azure is a subdirectory of Cloud directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },         
+    {
+      "name": "Verify WebDevelopment is a subdirectory of Software directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },        
+    {
+      "name": "Verify BackEnd is a subdirectory of WebDevelopment directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    },      
+    {
+      "name": "Verify FrontEnd is a subdirectory of WebDevelopment directory",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd > /dev/null;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }                
 
   ]
 }
