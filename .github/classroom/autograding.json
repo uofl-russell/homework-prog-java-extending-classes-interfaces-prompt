@@ -20,5 +20,16 @@
       "timeout": 10,
       "points": 10
     }
+    {
+      "name": "Verify NonOfficer & Officer are subdirectories of MegaCorp",
+      "setup": "",
+      "run": "ls HumanResources/src/MegaCorp/NonOfficer/Research;",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+
   ]
 }
