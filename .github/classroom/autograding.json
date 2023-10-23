@@ -832,36 +832,6 @@
   "points": 1
 },
 {
-  "name": "Verify Output For Seed value 102",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 102 | sha256sum",
-  "input": "",
-  "output": "1c41c678e4c90068a33bd7a59d02bdce6b1fff243b64c77c69cff4c824a01464",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 103",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 103 | sha256sum",
-  "input": "",
-  "output": "6cb43be8177c9b82bca6408ee0412dbc96980491b9fed12dd6366bae7741b811",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 104",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 104 | sha256sum",
-  "input": "",
-  "output": "08667971c3d3c01839abae58669ae8ca9e73fcfc27cee0b09e635add9229112a",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
   "name": "Verify Output For Seed value 105",
   "setup": "",
   "run": "cd HumanResources/src; javac Main.java; java Main 105 | sha256sum",
@@ -962,56 +932,6 @@
   "points": 1
 },
 {
-  "name": "Verify Output For Seed value 188",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 188 | sha256sum",
-  "input": "",
-  "output": "f36057778961d0992494650e64389ffddb34286309f42209db4a2ee39bc3a073",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 189",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 189 | sha256sum",
-  "input": "",
-  "output": "0b88347a394dfd0fa20d7615cdc9428590be3f70d1c4195da55a1cffeb381347",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 190",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 190 | sha256sum",
-  "input": "",
-  "output": "3b752eb463e10330dac1d48982f1884cb6e1d9713bbd79f326ce6c20a11591e6",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 198",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 198 | sha256sum",
-  "input": "",
-  "output": "284d25df62984db326ffdec950f5fa4af9e676b30ca3843d36836ce688a0420a",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 199",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 199 | sha256sum",
-  "input": "",
-  "output": "d79d28868d189a779bcd5b95a273b8c44a381bb5884e975379c244c38d5c9298",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
   "name": "Verify Output For Seed value 200",
   "setup": "",
   "run": "cd HumanResources/src; javac Main.java; java Main 200 | sha256sum",
@@ -1020,6 +940,17 @@
   "comparison": "included",
   "timeout": 10,
   "points": 1
+},
+{
+  "name": "Verify Output For Undisclosed Seed",
+  "setup": "",
+  "run": "cd HumanResources/src; javac Main.java; java Main 45778 | sha256sum",
+  "input": "",
+  "output": "0084ff2af7c59f3ae4b6414d0d5b79b4a0ebbc85f5cbd01e19cf0bd4635ac753",
+  "comparison": "included",
+  "timeout": 10,
+  "points": 20
 }
+
   ]
 }
