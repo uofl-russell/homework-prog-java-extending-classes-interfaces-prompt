@@ -5,7 +5,7 @@
       "setup": "",
       "run": "sha256sum HumanResources/src/Main.java",
       "input": "",
-      "output": "275357ad73a1912fe2cc1bb7aa2ba4fec5334bee0dc9d9c8d3e74dad8a7dbbe2",
+      "output": "1275357ad73a1912fe2cc1bb7aa2ba4fec5334bee0dc9d9c8d3e74dad8a7dbbe2",
       "comparison": "included",
       "timeout": 10,
       "points": null
