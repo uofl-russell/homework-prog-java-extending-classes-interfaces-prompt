@@ -65,7 +65,7 @@
       "setup": "",
       "run": "sha256sum HumanResources/src/TestPackage/RandomTests.java",
       "input": "",
-      "output": "9a45e5966727b6fc6669fda83bcbf56387476659b1d7f195c04d2b520ffcf691",
+      "output": "269741110555541db684f06ac9b4dde41a48b900a7156c6ce07db355bfa502dc",
       "comparison": "included",
       "timeout": 10,
       "points": 10
