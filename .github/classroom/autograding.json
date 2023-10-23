@@ -470,487 +470,486 @@
     "comparison": "exact",
     "timeout": 10,
     "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Employee.java class is Public and extends Categories",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/Employee.java class is Public and extends Categories",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/CSuite/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java printInfo method does not accept parameters",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/CSuite/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/Categories.java class is Public, Abstract, and extends Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Categories.java contains the correct import statement using MegaCorp.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Cloud.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Cloud.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Cloud.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Cloud.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/CSuite/Categories.java contains the correct import statement using MegaCorp.Officer.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Officer.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify MegaCorp/Officer/Categories.java contains the correct import statement using MegaCorp.Employee",
-  "setup": "",
-  "run": "cat HumanResources/src/MegaCorp/Officer/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Employee > /dev/null; echo $?",
-  "input": "",
-  "output": "0",
-  "comparison": "exact",
-  "timeout": 10,
-  "points": 10
-},
-{
-  "name": "Verify Output For Seed value 100",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 100 | sha256sum",
-  "input": "",
-  "output": "c3c5f3f88d31dae9e4ae1a07faa2954e67fb5b57d8e0670b6214797f9dbdaceb",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 101",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 101 | sha256sum",
-  "input": "",
-  "output": "808764ea91bef3d0bead6f480b9d1494a5ff032de0c0bd7d70087595d81feb37",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 105",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 105 | sha256sum",
-  "input": "",
-  "output": "410a8895de438dfa8fc8a937c2fb8e41bd471b767b7bf0c6ea5017f9ff600f13",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 106",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 106 | sha256sum",
-  "input": "",
-  "output": "3c62d80c9f3911cb4969ee77fb2d3b5c422f2d11103dbca7ca96af8047370ea5",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 142",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 142 | sha256sum",
-  "input": "",
-  "output": "667fe155f8f0fab119307fedae9a2c4f5c10bfab323b7064849257b47dbe6025",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 147",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 147 | sha256sum",
-  "input": "",
-  "output": "131a729a7862af07f84aef1778c7746de3d0e290b2925b45cc52f47d14f88182",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 148",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 148 | sha256sum",
-  "input": "",
-  "output": "505e861900482d60a410d02959dfcd03a2357b89a6c03743681df6c4956de4b5",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 149",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 149 | sha256sum",
-  "input": "",
-  "output": "09cc3730b53996434236d040777909a6eb99309b98422fdd7514d1c7a00634cb",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 150",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 150 | sha256sum",
-  "input": "",
-  "output": "db52cd625056fa1eacc99f6cc74cb5cb58205417f116761df6d711bdb96a31f1",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 185",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 185 | sha256sum",
-  "input": "",
-  "output": "c601f87a88756f91da55cf6bdd2a3d00077c5ebfdfea96e6f87622e2508d74f1",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 186",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 186 | sha256sum",
-  "input": "",
-  "output": "4bf6b187bec8f9f1901dc2c51f77dd1bb6b76189663597e113f581d9a2ebd756",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 187",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 187 | sha256sum",
-  "input": "",
-  "output": "01f1adf15a0d89c0cf4c7e4b612394daf147b56f3dbcc5cb95edccc462c6d6a6",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Seed value 200",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 200 | sha256sum",
-  "input": "",
-  "output": "9e51ee4000277bcb0c096a875199e5e8ff897bb224676718b91dba696a5e13ac",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 1
-},
-{
-  "name": "Verify Output For Undisclosed Seed",
-  "setup": "",
-  "run": "cd HumanResources/src; javac Main.java; java Main 45778 | sha256sum",
-  "input": "",
-  "output": "0084ff2af7c59f3ae4b6414d0d5b79b4a0ebbc85f5cbd01e19cf0bd4635ac753",
-  "comparison": "included",
-  "timeout": 10,
-  "points": 20
-}
-
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Employee.java class is Public and extends Categories",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/Employee.java class is Public and extends Categories",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategories > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java class is Public, Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Employee.java | tr -d \" \t\n\r\" | grep publicabstractclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/CSuite/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java printInfo method does not accept parameters",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/CSuite/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/Categories.java class is Public, Abstract, and extends Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/Categories.java | tr -d \" \t\n\r\" | grep publicabstractclassCategoriesextendsEmployee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/BackEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/FrontEnd/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.WebDevelopment.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Software.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/WebDevelopment/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Software.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Software/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Software/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Categories.java contains the correct import statement using MegaCorp.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Cloud.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/AWS/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Cloud.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Cloud.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Azure/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Cloud.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/NonOfficer/Engineering/Cloud/Categories.java contains the correct import statement using MegaCorp.NonOfficer.Engineering.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/NonOfficer/Engineering/Cloud/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.NonOfficer.Engineering.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/CSuite/Categories.java contains the correct import statement using MegaCorp.Officer.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Officer.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify MegaCorp/Officer/Categories.java contains the correct import statement using MegaCorp.Employee",
+    "setup": "",
+    "run": "cat HumanResources/src/MegaCorp/Officer/Categories.java | tr -d \" \t\n\r\" | grep importMegaCorp.Employee > /dev/null; echo $?",
+    "input": "",
+    "output": "0",
+    "comparison": "exact",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "Verify Output For Seed value 100",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 100 | sha256sum",
+    "input": "",
+    "output": "c3c5f3f88d31dae9e4ae1a07faa2954e67fb5b57d8e0670b6214797f9dbdaceb",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 101",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 101 | sha256sum",
+    "input": "",
+    "output": "808764ea91bef3d0bead6f480b9d1494a5ff032de0c0bd7d70087595d81feb37",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 105",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 105 | sha256sum",
+    "input": "",
+    "output": "410a8895de438dfa8fc8a937c2fb8e41bd471b767b7bf0c6ea5017f9ff600f13",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 106",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 106 | sha256sum",
+    "input": "",
+    "output": "3c62d80c9f3911cb4969ee77fb2d3b5c422f2d11103dbca7ca96af8047370ea5",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 142",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 142 | sha256sum",
+    "input": "",
+    "output": "667fe155f8f0fab119307fedae9a2c4f5c10bfab323b7064849257b47dbe6025",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 147",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 147 | sha256sum",
+    "input": "",
+    "output": "131a729a7862af07f84aef1778c7746de3d0e290b2925b45cc52f47d14f88182",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 148",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 148 | sha256sum",
+    "input": "",
+    "output": "505e861900482d60a410d02959dfcd03a2357b89a6c03743681df6c4956de4b5",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 149",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 149 | sha256sum",
+    "input": "",
+    "output": "09cc3730b53996434236d040777909a6eb99309b98422fdd7514d1c7a00634cb",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 150",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 150 | sha256sum",
+    "input": "",
+    "output": "db52cd625056fa1eacc99f6cc74cb5cb58205417f116761df6d711bdb96a31f1",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 185",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 185 | sha256sum",
+    "input": "",
+    "output": "c601f87a88756f91da55cf6bdd2a3d00077c5ebfdfea96e6f87622e2508d74f1",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 186",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 186 | sha256sum",
+    "input": "",
+    "output": "4bf6b187bec8f9f1901dc2c51f77dd1bb6b76189663597e113f581d9a2ebd756",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 187",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 187 | sha256sum",
+    "input": "",
+    "output": "01f1adf15a0d89c0cf4c7e4b612394daf147b56f3dbcc5cb95edccc462c6d6a6",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Seed value 200",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 200 | sha256sum",
+    "input": "",
+    "output": "9e51ee4000277bcb0c096a875199e5e8ff897bb224676718b91dba696a5e13ac",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "Verify Output For Undisclosed Seed",
+    "setup": "",
+    "run": "cd HumanResources/src; javac Main.java; java Main 45778 | sha256sum",
+    "input": "",
+    "output": "0084ff2af7c59f3ae4b6414d0d5b79b4a0ebbc85f5cbd01e19cf0bd4635ac753",
+    "comparison": "included",
+    "timeout": 10,
+    "points": 20
+  }
   ]
 }
