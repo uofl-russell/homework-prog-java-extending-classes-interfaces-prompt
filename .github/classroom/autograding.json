@@ -560,6 +560,16 @@
   "comparison": "exact",
   "timeout": 10,
   "points": 10
+},
+{
+  "name": "Verify MegaCorp/Officer/CSuite/Employee.java class is Public, not Abstract, extends Categories, and implements IEmployee",
+  "setup": "",
+  "run": "cat HumanResources/src/MegaCorp/Officer/CSuite/Employee.java | tr -d \" \t\n\r\" | grep publicclassEmployeeextendsCategoriesimplementsIEmployee > /dev/null; echo $?",
+  "input": "",
+  "output": "0",
+  "comparison": "exact",
+  "timeout": 10,
+  "points": 10
 }
 
 
