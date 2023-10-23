@@ -13,7 +13,7 @@
     {
       "name": "Verify TestPackage/AWSTest.java has not been altered",
       "setup": "",
-      "run": "sha256sum HumanResources/src/AWSTest.java",
+      "run": "sha256sum HumanResources/src/TestPackage/AWSTest.java",
       "input": "",
       "output": "a36cd94c0c56fa946f10a9e5948975d8062f34d91bbc2168c5fb4276e2c9a8c0",
       "comparison": "included",
