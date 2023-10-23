@@ -814,7 +814,7 @@
 {
     "name": "Verify Output For Seed value 200",
     "setup": "",
-    "run": "cd HumanResources/src; javac Main.java; java Main 200",
+    "run": "cd HumanResources/src; javac Main.java; java Main 200 | sha256sum",
     "input": "",
     "output": "9e51ee4000277bcb0c096a875199e5e8ff897bb224676718b91dba696a5e13ac",
     "comparison": "included",
