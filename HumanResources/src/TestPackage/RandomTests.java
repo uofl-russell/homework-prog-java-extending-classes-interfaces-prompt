@@ -17,17 +17,20 @@ public abstract class RandomTests {
 
     protected String randomJobDescription() {
         int label = rand.nextInt(500)%2;
-        return switch (label) {
-            case 0 -> "Leads a team of "
-                        + (10 + rand.nextInt(100))
-                        + " that develop Web Applications for section "
-                        + rand.nextInt(50000);
-            case 1 -> "General supervisor for a team of "
-                        + (10 + rand.nextInt(100))
-                        + " that design projects for section "
-                        + rand.nextInt(50000);
-            default -> "Employee wanders aimlessly.  No idea how this happened.";
-        };
+        switch (label) {
+            case 0:
+                return "Leads a team of "
+                            + (10 + rand.nextInt(100))
+                            + " that develop Web Applications for section "
+                            + rand.nextInt(50000);
+            case 1:
+                return "General supervisor for a team of "
+                            + (10 + rand.nextInt(100))
+                            + " that design projects for section "
+                            + rand.nextInt(50000);
+            default:
+                return "Employee wanders aimlessly.  No idea how this happened.";
+        }
     }
 
     protected String randomJobTitle() {
