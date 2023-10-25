@@ -70,7 +70,7 @@ public abstract class RandomTests {
                 return Categories.Rehire.NOTELIGIBLE;
             default:
                 return Categories.Rehire.ELIGIBLE;
-        };
+        }
     }
 
     protected Calendar randomHireDate() {
