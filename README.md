@@ -7,6 +7,12 @@ As the engineering director of a large corporation, I need to update our MegaCor
 The link below provides a LucidChart that provides a UML diagram for the MegaCorp Package.  Please use it as a guide to comlete this task.
 https://lucid.app/documents/view/9d370fc7-ac22-4689-8b14-b76593a3e5d5
 
+## Assignment Overview Video
+
+The link below is a lecture/explanation video that explains the general idea of the assignment
+
+https://youtu.be/A-f9TAG1O8Y
+
 # Acceptance Criteria
 
 - A UML document has been provided.  It outlines the necessary implementations and provides a guide for how MegaCorp package has been constructed.
