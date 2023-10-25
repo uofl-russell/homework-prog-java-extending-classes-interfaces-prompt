@@ -8,6 +8,7 @@ As the engineering director of a large corporation, I need to update our MegaCor
 - You must not make any changes to Main.java or the TestPackage package (do not change any files in the TestPackage directory).
 - You must add the new BackEnd position.
 - You must add the new Cloud positions that will include AWS and Azure.
+- Be aware of which classes are public and which ones are abstract.
 
 
 # Test Suites
