@@ -2,6 +2,11 @@
 
 As the engineering director of a large corporation, I need to update our MegaCorp package so it reflects the new position of backend web developer software engineer.  We also need the package to reflect our new Cloud division that we have added.  Please look at the UML docucument, provided at the link below, to make the necessary additions.  The current MegaCorp package is built in a modular fashion using abstract classes.  Please follow the general template to make the necessary adjustments.
 
+## UML Document Link
+
+The link below provides a LucidChart that provides a UML diagram for the MegaCorp Package.  Please use it as a guide to comlete this task.
+https://lucid.app/documents/view/9d370fc7-ac22-4689-8b14-b76593a3e5d5
+
 # Acceptance Criteria
 
 - A UML document has been provided.  It outlines the necessary implementations and provides a guide for how MegaCorp package has been constructed.
