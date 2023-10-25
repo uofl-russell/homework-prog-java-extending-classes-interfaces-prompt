@@ -17,63 +17,47 @@ public abstract class RandomTests {
 
     protected String randomJobDescription() {
         int label = rand.nextInt(500)%2;
-        switch (label) {
-            case 0:
-                return "Leads a team of "
-                            + (10 + rand.nextInt(100))
-                            + " that develop Web Applications for section "
-                            + rand.nextInt(50000);
-            case 1:
-                return "General supervisor for a team of "
-                            + (10 + rand.nextInt(100))
-                            + " that design projects for section "
-                            + rand.nextInt(50000);
-            default:
-                return "Employee wanders aimlessly.  No idea how this happened.";
-        }
+        return switch (label) {
+            case 0 -> "Leads a team of "
+                        + (10 + rand.nextInt(100))
+                        + " that develop Web Applications for section "
+                        + rand.nextInt(50000);
+            case 1 -> "General supervisor for a team of "
+                        + (10 + rand.nextInt(100))
+                        + " that design projects for section "
+                        + rand.nextInt(50000);
+            default -> "Employee wanders aimlessly.  No idea how this happened.";
+        };
     }
 
     protected String randomJobTitle() {
         int label = rand.nextInt(500)%3;
-        switch (label) {
-            case 0:
-                return "Senior Lead For Project #" + rand.nextInt(500);
-            case 1:
-                return "Scrum Master For Project #" + rand.nextInt(500);
-            case 2:
-                return "Admin Assistant For Project #" + rand.nextInt(500);
-            default:
-                return "Employee has not official title.  No  Idea how this happened";
-        }
+        return switch (label) {
+            case 0 -> "Senior Lead For Project #" + rand.nextInt(500);
+            case 1 -> "Scrum Master For Project #" + rand.nextInt(500);
+            case 2 -> "Admin Assistant For Project #" + rand.nextInt(500);
+            default -> "Employee has not official title.  No  Idea how this happened";
+        };
     }
 
     protected Categories.EmploymentStatus randomEmploymentStatus() {
         int label = rand.nextInt(500)%5;
-        switch (label) {
-            case 0:
-                return Categories.EmploymentStatus.FULLTIME;
-            case 1:
-                return Categories.EmploymentStatus.PARTTIME;
-            case 2:
-                return Categories.EmploymentStatus.INTERN;
-            case 3:
-                return Categories.EmploymentStatus.RETIRED;
-            case 4:
-                return Categories.EmploymentStatus.TERMINATED;
-            default:
-                return Categories.EmploymentStatus.UNKNOWN;
-        }
+        return switch (label) {
+            case 0 -> Categories.EmploymentStatus.FULLTIME;
+            case 1 -> Categories.EmploymentStatus.PARTTIME;
+            case 2 -> Categories.EmploymentStatus.INTERN;
+            case 3 -> Categories.EmploymentStatus.RETIRED;
+            case 4 -> Categories.EmploymentStatus.TERMINATED;
+            default -> Categories.EmploymentStatus.UNKNOWN;
+        };
     }
     protected Categories.Rehire randomRehireStatus() {
         int label = rand.nextInt(500)%2;
-        switch (label) {
-            case 0:
-                return Categories.Rehire.ELIGIBLE;
-            case 1:
-                return Categories.Rehire.NOTELIGIBLE;
-            default:
-                return Categories.Rehire.ELIGIBLE;
-        }
+        return switch (label) {
+            case 0 -> Categories.Rehire.ELIGIBLE;
+            case 1 -> Categories.Rehire.NOTELIGIBLE;
+            default -> Categories.Rehire.ELIGIBLE;
+        };
     }
 
     protected Calendar randomHireDate() {

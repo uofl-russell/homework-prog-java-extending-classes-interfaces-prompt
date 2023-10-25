@@ -1,0 +1,338 @@
+@startuml
+
+/' diagram meta data start
+config=StructureConfiguration;
+{
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": false,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showClassGenericTypes": true,
+    "showMethods": true,
+    "showMethodParameterNames": true,
+    "showMethodParameterTypes": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 2,
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "TestPackage.AWSTest",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="TB"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_115945750 { 
+   	label=Officer
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Categories1996372100[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Categories</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+subgraph cluster_1639387593 { 
+   	label=NonOfficer
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   subgraph cluster_1433150898 { 
+   	label=Engineering
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   Categories1310226486[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Categories</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   certifications: ArrayList&lt;String&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Categories65784775[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Categories</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   certifications: ArrayList&lt;String&gt; [0..*]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Employee1469925664[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Employee</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   division: Divisions [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addEngineerCert(cert: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addEngineerCerts(certs: String[])</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildCertifications(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildHRChain(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printInfo(hrChain: String, certs: String)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Employee65784775[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Employee</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   division: Divisions [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addCloudCert(cert: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addCloudCerts(certs: String[])</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildCertifications(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildHRChain(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printInfo(hrChain: String, certs: String)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+Employee899061344[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Employee</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   division: Divisions [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addWebCert(cert: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addWebCerts(certs: String[])</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildCertifications(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildHRChain(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printInfo(hrChain: String, certs: String)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+} 
+
+subgraph cluster_468207412 { 
+   	label=TestPackage
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   AWSTest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)AWSTest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+AzureTest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)AzureTest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+BETest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)BETest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+CSuiteTest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)CSuiteTest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+FETest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)FETest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+RandomTests468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)RandomTests</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   rand: Random [0..1]</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" ># randomBirthDate(): Calendar</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomCert(category: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomEmploymentStatus(): EmploymentStatus</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomHireDate(): Calendar</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomJobDescription(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomJobTitle(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># randomRehireStatus(): Rehire</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+ResearchTest468207412[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)ResearchTest</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ test()</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+subgraph cluster_758508708 { 
+   	label=MegaCorp
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Employee758508708[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Employee</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >+ addGeneralCert(cert: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ addGeneralCerts(certs: String[])</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildCertifications(): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># buildHRChain(): String</TD></TR>
+<TR><TD ALIGN="LEFT" >- formatDate(date: Calendar): String</TD></TR>
+<TR><TD ALIGN="LEFT" ># getDivisionContactString(division: String, hrContact: String): String</TD></TR>
+<TR><TD ALIGN="LEFT" >+ printInfo(hrChain: String, certs: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateBirthDate(birthDate: Calendar)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateEmploymentStatus(employmentStatus: EmploymentStatus)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateHireDate(hireDate: Calendar)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateJobDescription(jobDescription: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateJobTitle(jobTitle: String)</TD></TR>
+<TR><TD ALIGN="LEFT" >+ updateRehireEligibility(rehireStatus: Rehire)</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+} 
+
+'edges    
+Categories65784775 -> Employee65784775[arrowhead=none, arrowtail=empty, dir=both];
+Employee65784775 -> Categories1310226486[arrowhead=none, arrowtail=empty, dir=both];
+Employee65784775 -> Employee758508708[label="buildHRChain() -> getDivisionContactString()"];
+Employee758508708 -> Categories1996372100[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> AWSTest468207412[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> AzureTest468207412[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> BETest468207412[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> CSuiteTest468207412[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> FETest468207412[arrowhead=none, arrowtail=empty, dir=both];
+RandomTests468207412 -> ResearchTest468207412[arrowhead=none, arrowtail=empty, dir=both];
+    
+}
+@enduml

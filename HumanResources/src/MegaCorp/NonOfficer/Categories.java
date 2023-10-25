@@ -7,7 +7,7 @@ public abstract class Categories extends Employee {
         ENGINEERING,
         RESEARCH
     }
-    public Categories(String firstName, String lastName, int employeeID) {
+    protected Categories(String firstName, String lastName, int employeeID) {
         super(firstName, lastName, employeeID);
     }
 }

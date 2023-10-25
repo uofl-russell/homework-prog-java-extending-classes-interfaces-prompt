@@ -33,7 +33,7 @@ public abstract class Categories {
     protected Rehire rehireEligibility;
     protected String jobDescription;
 
-    Categories(String firstName, String lastName, int employeeID) {
+    protected Categories(String firstName, String lastName, int employeeID) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.employeeID = employeeID;

@@ -5,8 +5,7 @@ import java.util.Collections;
 
 public abstract class Employee extends Categories implements IEmployee {
 
-    protected Divisions division;
-    public Employee(String firstName, String lastName, int employeeID) {
+    protected Employee(String firstName, String lastName, int employeeID) {
         super(firstName, lastName, employeeID);
     }
 

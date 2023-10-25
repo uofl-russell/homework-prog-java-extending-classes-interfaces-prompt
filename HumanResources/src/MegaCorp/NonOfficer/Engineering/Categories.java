@@ -11,7 +11,7 @@ public abstract class Categories extends Employee {
     }
     protected ArrayList<String> certifications;
 
-    Categories(String firstName, String lastName, int employeeID) {
+    protected Categories(String firstName, String lastName, int employeeID) {
         super(firstName, lastName, employeeID);
         this.certifications = new ArrayList<String>();
     }
